@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="./script.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">       
+</head>
+
+
+
+
+<!-- color botones ingreso y registro-->
+<div class="inicio">
+  <a href="index.html">
+    <button>inicio</button> 
+  
+
+
+</div> 
+
+
+
+
+
+<h3>Información sobre el producto</h3>
+
+<form name="miform" method="post" action="http://www.eui.upm.es/~salonso/curso/procesa.php">
+
+<fieldset>
+  <legend><strong>Datos básicos</strong></legend>
+
+  <label for="nombre">Nombre producto</label> <br>  
+  <input name="nombre" id="nombre" size="50" maxlength="250" type="text"><br><br>
+
+  <label for="descripcion">Descripción</label> <br>  
+  <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea><br><br>
+
+  Foto <input name="foto" type="file"><br><br>  
+</fieldset>
+
+<br>
+<fieldset>
+  <legend><strong>Datos económicos</strong></legend>
+  
+  <label for="precio">Precio</label> 
+  <input size="5" id="precio" name="precio" type="text"> $
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <label for="impuestos">Impuestos</label> 
+  <select name="impuestos">
+    <option value="4">4%</option>
+    <option value="7">7%</option>
+    <option value="16">16%</option>
+    <option value="25">25%</option>
+  </select>
+  
+  <br><br>
+  <label>Promoción</label> <br>
+  <input name="promocion" value="ninguno" checked="checked" type="radio"> Ninguno <br>
+  <input name="promocion" value="portes" type="radio"> Descuento 5% <br>
+  <input name="promocion" value="descuento" type="radio"> Descuento 5%
+</fieldset>
+</form>
+
+
+</body></html>
+
+
+
+
+
+
